@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
 
     $hello = 'Hello Laravel!!';
-
-    return view('home', compact('hello'));
+    $navBarItems = ['Home Page', 'About'];
+    return view('home', compact('hello', 'navBarItems'));
 });
 

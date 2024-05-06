@@ -14,6 +14,18 @@
         
     </head>
     <body class="antialiased">
+        <div class="nav_bar">
+            <ul>
+                @foreach ($navBarItems as $navBarItem)
+                <li>
+                    {{ $navBarItem }}
+                </li>
+                @endforeach
+            </ul>
+        </div>
         <h1>{{ $hello }}</h1>
+        <div>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla corporis, fuga possimus aut perspiciatis repellat aspernatur sequi iste quidem dolorum, reiciendis ratione, cum rerum omnis porro maxime voluptatibus repudiandae explicabo.
+        </div>
     </body>
 </html>
