@@ -14,6 +14,6 @@
         
     </head>
     <body class="antialiased">
-        <h1>HELLO LARAVEL</h1>
+        <h1>{{ $hello }}</h1>
     </body>
 </html>
